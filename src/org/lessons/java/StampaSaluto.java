@@ -8,6 +8,7 @@ public class StampaSaluto {
         int age = 32;
         System.out.println("Hello Java!");
         System.out.println("My name is" + " " + fullname);
-        System.out.printf("I'm %s years old", age);
+        System.out.println(String.format("I'm %s years old", age));
+        System.out.println("Sto provando a pushare con il terminale");
     }
 }
